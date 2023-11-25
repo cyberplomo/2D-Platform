@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e118399a-6f94-453a-9845-cdf94e2a4879" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +57,7 @@
       <updated>1700907680885</updated>
       <workItem from="1700907683701" duration="1608000" />
       <workItem from="1700910226363" duration="1113000" />
-      <workItem from="1700912315027" duration="2118000" />
+      <workItem from="1700912315027" duration="2472000" />
     </task>
     <servers />
   </component>

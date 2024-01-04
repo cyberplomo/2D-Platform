@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (onWall() && !isGrounded())
         {
-            if (horizontalInput == 0)
+            if (horizontalInput == 0) 
             {
                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         }
         
     }
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
        // if (collision.gameObject.tag == "Ground")

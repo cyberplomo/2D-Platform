@@ -16,9 +16,8 @@ public class TileManager : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
     }
-
     private void Update()
-    {
+    { 
         if (hit) return;
         float movementSpeed = speed * Time.deltaTime * direction;
         transform.Translate(movementSpeed, 0, 0);

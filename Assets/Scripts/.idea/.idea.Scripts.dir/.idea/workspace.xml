@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e118399a-6f94-453a-9845-cdf94e2a4879" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Fire/Fire.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Fire/Fire.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Fire/Fire_explode.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Fire/Fire_explode.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Fire/Fire_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Fire/Fire_idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerFire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TileManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TileManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Health.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerFire.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TileManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TileManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -73,7 +77,9 @@
       <workItem from="1703339868592" duration="77000" />
       <workItem from="1703441878055" duration="417000" />
       <workItem from="1704398715105" duration="70000" />
-      <workItem from="1704398797533" duration="951000" />
+      <workItem from="1704398797533" duration="1506000" />
+      <workItem from="1704482713018" duration="3200000" />
+      <workItem from="1704486923870" duration="5000" />
     </task>
     <servers />
   </component>

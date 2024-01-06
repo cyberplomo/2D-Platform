@@ -38,11 +38,14 @@ public class FireTrap : MonoBehaviour
     private IEnumerator ActivateFiretrap()
     {
         triggered = true;
+        spriteRend.color = Color.red;
         yield return new WaitForSeconds(activationDelay);
+        spriteRend.color = Color.white;
         active = true;
+        anim.SetBool("activate", true);
         yield return new WaitForSeconds(activeTime);
         active = false;
         triggered = false;
-        
+        anim.SetBool("activate", false);
     }
 }

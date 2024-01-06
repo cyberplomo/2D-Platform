@@ -5,11 +5,12 @@ using UnityEngine;
 public class TileManager : MonoBehaviour
 {
     [SerializeField] private float speed;
+	private float direction;
     private bool hit;
     private BoxCollider2D boxCollider;
     private Animator anim;
 
-    private float direction;
+    
 
     private void Awake()
     {

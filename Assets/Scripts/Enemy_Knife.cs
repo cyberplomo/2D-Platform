@@ -5,8 +5,9 @@ using UnityEngine;
 public class Enemy_Knife : MonoBehaviour
 {
    [SerializeField] private float MovementDistance;
-   [SerializeField] private float damage;
    [SerializeField] private float speed;
+   [SerializeField] private float damage;
+ 
 
    private bool movingLeft;
    private float LeftEdge;
@@ -25,7 +26,7 @@ public class Enemy_Knife : MonoBehaviour
       {
          if (transform.position.x > LeftEdge)
          {
-               transform.position = new Vector3(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
          }
          else
             movingLeft = false;
@@ -37,7 +38,7 @@ public class Enemy_Knife : MonoBehaviour
             transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
          }
          else
-            movingLeft = false;
+            movingLeft = true;
       }
    }
    private void OnTriggerEnter2D(Collider2D collision)

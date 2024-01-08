@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e118399a-6f94-453a-9845-cdf94e2a4879" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Animation/Traps/FireTrap/Activate.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Traps/FireTrap/Activate.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Animation/Traps/FireTrap/FireTrap.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Traps/FireTrap/FireTrap.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Animation/Traps/FireTrap/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Traps/FireTrap/Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnemyDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDamage.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +17,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ArrowTrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EnemyDamage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyProjectile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Enemy_Knife.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FireTrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FireTrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Health.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HealthCollectable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -80,6 +81,8 @@
       <workItem from="1704398797533" duration="1506000" />
       <workItem from="1704482713018" duration="3200000" />
       <workItem from="1704486923870" duration="14515000" />
+      <workItem from="1704570909306" duration="620000" />
+      <workItem from="1704730453120" duration="6222000" />
     </task>
     <servers />
   </component>

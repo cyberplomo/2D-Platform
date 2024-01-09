@@ -1151,6 +1151,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1521144638}
     m_Modifications:
+    - target: {fileID: 3881884745278718117, guid: 11ec9cd6e9004394ba136d546d115080, type: 3}
+      propertyPath: components.Array.data[0]
+      value: 
+      objectReference: {fileID: 1521144637}
     - target: {fileID: 7175784680343611186, guid: 11ec9cd6e9004394ba136d546d115080, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1921,6 +1925,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &1521144637 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4719436007808472128, guid: f1163d752c3a2e042bc6c6c9fc329079, type: 3}
+  m_PrefabInstance: {fileID: 4807959730049931849}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55855584503e4c54b99c2368fe2cc4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1521144638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9157125732776150007, guid: f1163d752c3a2e042bc6c6c9fc329079, type: 3}
@@ -2776,7 +2791,9 @@ MonoBehaviour:
   startingHealth: 5
   iFramesDuration: 1
   numberOfFlashes: 3
-  components: []
+  components:
+  - {fileID: 1859356827}
+  - {fileID: 1859356833}
 --- !u!1 &1986833629
 GameObject:
   m_ObjectHideFlags: 0

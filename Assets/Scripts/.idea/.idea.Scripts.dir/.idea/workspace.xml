@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e118399a-6f94-453a-9845-cdf94e2a4879" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Animation/Player/Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Player/Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Player/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Player/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Animation/Player/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Player/Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnemyDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDamage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprites/undefined - Imgur.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprites/undefined - Imgur.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +28,10 @@
     <setting file="file://$PROJECT_DIR$/EnemyProjectile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Enemy_Knife.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FireTrap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Health.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HealthCollectable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerFire.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TileManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -82,7 +87,9 @@
       <workItem from="1704482713018" duration="3200000" />
       <workItem from="1704486923870" duration="14515000" />
       <workItem from="1704570909306" duration="620000" />
-      <workItem from="1704730453120" duration="6222000" />
+      <workItem from="1704730453120" duration="7048000" />
+      <workItem from="1704797673701" duration="621000" />
+      <workItem from="1704803604428" duration="322000" />
     </task>
     <servers />
   </component>

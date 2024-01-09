@@ -1,7 +1,25 @@
 fileFormatVersion: 2
-guid: cf0ff59c792607b4090f2bf8ffd2d085
+guid: e837422a5c7d266498ae8e1e6778052e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -188246534594381080
+    second: Attack03_0
+  - first:
+      213: -9094496271808380837
+    second: Attack03_1
+  - first:
+      213: 1520931560637763677
+    second: Attack03_2
+  - first:
+      213: -908575178210889621
+    second: Attack03_3
+  - first:
+      213: -7279309264870829098
+    second: Attack03_4
+  - first:
+      213: 8896925389107748875
+    second: Attack03_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -34,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,7 +103,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,37 +112,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +129,46 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,253 +180,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: undefined - Imgur_0
+      name: Attack03_0
       rect:
         serializedVersion: 2
-        x: 117
-        y: 3313
-        width: 734
-        height: 615
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 19
+        width: 120
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4675649, y: 0.4334663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a2ece36db49853408474617d6205161
-      internalID: -409839099
+      spriteID: 8eabd4f26c6336df0800000000000000
+      internalID: -188246534594381080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: undefined - Imgur_1
+      name: Attack03_1
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 3383
-        width: 615
-        height: 565
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 120
+        y: 19
+        width: 120
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4675649, y: 0.4334663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f8a3efe9a0d27b4d9ab25e712f6bb4b
-      internalID: 1405465886
+      spriteID: b504fb353dbd9c180800000000000000
+      internalID: -9094496271808380837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: undefined - Imgur_2
+      name: Attack03_2
       rect:
         serializedVersion: 2
-        x: 2112
-        y: 3323
-        width: 823
-        height: 576
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 19
+        width: 120
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4675649, y: 0.4334663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b57fc5b208b24da4d9eb98a5507a91ea
-      internalID: 1431735219
+      spriteID: d509e77323f6b1510800000000000000
+      internalID: 1520931560637763677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: undefined - Imgur_3
+      name: Attack03_3
       rect:
         serializedVersion: 2
-        x: 2052
-        y: 2301
-        width: 833
-        height: 605
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 360
+        y: 19
+        width: 120
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4675649, y: 0.4334663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6915229f78d937f4c8dd031213280acd
-      internalID: -492889596
+      spriteID: b60b00370b71463f0800000000000000
+      internalID: -908575178210889621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: undefined - Imgur_4
+      name: Attack03_4
       rect:
         serializedVersion: 2
-        x: 951
-        y: 2351
-        width: 893
-        height: 625
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 19
+        width: 120
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4675649, y: 0.4334663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b74fa142b815b349ad6eaff78c2fbb5
-      internalID: 392102856
+      spriteID: 6d31a218ac2bafa90800000000000000
+      internalID: -7279309264870829098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: undefined - Imgur_5
+      name: Attack03_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 2311
-        width: 695
-        height: 615
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 600
+        y: 19
+        width: 120
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4675649, y: 0.4334663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d599d3733344b724f89a241af07a5a6e
-      internalID: 160412198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_6
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 164
-        width: 814
-        height: 595
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb916710c84173e4fa71ce61eff839e6
-      internalID: 1393167378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_7
-      rect:
-        serializedVersion: 2
-        x: 1169
-        y: 223
-        width: 754
-        height: 566
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be433328ff822ab49ade9b121449a476
-      internalID: 1550483556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_8
-      rect:
-        serializedVersion: 2
-        x: 2151
-        y: 184
-        width: 655
-        height: 545
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85258ebd89e0de049b974b6f7ede28e3
-      internalID: 1011006306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_9
-      rect:
-        serializedVersion: 2
-        x: 2062
-        y: 1225
-        width: 843
-        height: 626
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb5fa812c98b10c4d9a5eb8a1fd80e42
-      internalID: 349493202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_10
-      rect:
-        serializedVersion: 2
-        x: 1089
-        y: 1384
-        width: 814
-        height: 476
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6ca7440f65634c43bf1d78f7d2988f7
-      internalID: -1367856140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_11
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 1305
-        width: 725
-        height: 476
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4df996920013b94b92cc4d625e3de39
-      internalID: -904376372
+      spriteID: b00ebe2e08a387b70800000000000000
+      internalID: 8896925389107748875
       vertices: []
       indices: 
       edges: []
@@ -411,18 +316,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      undefined - Imgur_0: -409839099
-      undefined - Imgur_1: 1405465886
-      undefined - Imgur_10: -1367856140
-      undefined - Imgur_11: -904376372
-      undefined - Imgur_2: 1431735219
-      undefined - Imgur_3: -492889596
-      undefined - Imgur_4: 392102856
-      undefined - Imgur_5: 160412198
-      undefined - Imgur_6: 1393167378
-      undefined - Imgur_7: 1550483556
-      undefined - Imgur_8: 1011006306
-      undefined - Imgur_9: 349493202
+      Attack03_0: -188246534594381080
+      Attack03_1: -9094496271808380837
+      Attack03_2: 1520931560637763677
+      Attack03_3: -908575178210889621
+      Attack03_4: -7279309264870829098
+      Attack03_5: 8896925389107748875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

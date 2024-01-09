@@ -20,12 +20,12 @@ public class EnemyAttack : MonoBehaviour
     
     private Animator anim;
     private Health playerHealth;
-    private EnemyPatrol enemyPatrol;
+    private EnemyWalk enemywalk;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        enemywalk = GetComponentInParent<EnemyWalk>();
     }
 
     private void Update()
@@ -42,8 +42,8 @@ public class EnemyAttack : MonoBehaviour
             }
         }
 
-        if (enemyPatrol != null)
-            enemyPatrol.enabled = !PlayerInSight();
+        if (enemywalk != null)
+            enemywalk.enabled = !PlayerInSight();
     }
 
     private bool PlayerInSight()

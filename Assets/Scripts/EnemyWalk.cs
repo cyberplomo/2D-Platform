@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyPatrol : MonoBehaviour
+public class EnemyWalk : MonoBehaviour
 {
     [Header ("Patrol Points")]
     [SerializeField] private Transform leftEdge;

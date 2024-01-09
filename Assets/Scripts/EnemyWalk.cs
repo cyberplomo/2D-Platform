@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyWalk : MonoBehaviour
 {
-    [Header ("Patrol Points")]
+    [Header ("Walk Points")]
     [SerializeField] private Transform leftEdge;
     [SerializeField] private Transform rightEdge;
 
@@ -29,7 +29,7 @@ public class EnemyWalk : MonoBehaviour
     }
     private void OnDisable()
     {
-        anim.SetBool("moving", false);
+        anim.SetBool("Moving", false);
     }
 
     private void Update()
@@ -52,7 +52,7 @@ public class EnemyWalk : MonoBehaviour
 
     private void DirectionChange()
     {
-        anim.SetBool("moving", false);
+        anim.SetBool("Moving", false);
         idleTimer += Time.deltaTime;
 
         if(idleTimer > idleDuration)
@@ -62,7 +62,7 @@ public class EnemyWalk : MonoBehaviour
     private void MoveInDirection(int _direction)
     {
         idleTimer = 0;
-        anim.SetBool("moving", true);
+        anim.SetBool("Moving", true);
 
         //Make enemy face direction
         enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,

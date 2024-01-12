@@ -10,6 +10,9 @@ public class SlotUse : MonoBehaviour
     // Hız artışı için orijinal hız değeri
     private float originalMoveSpeed;
 
+    // Hız artışının süresi
+    public float speedBoostDuration = 5f;
+
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
@@ -33,7 +36,10 @@ public class SlotUse : MonoBehaviour
             }
 
             // Karakter hızını artır
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 2f; // Örneğin, %20 daha hızlı
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 5f; // Örneğin, %20 daha hızlı
+
+            // Belirli bir süre sonra hızı sıfırla
+            Invoke("ResetSpeed", speedBoostDuration);
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
@@ -43,7 +49,10 @@ public class SlotUse : MonoBehaviour
             }
 
             // Karakter hızını artır
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 2f; // Örneğin, %20 daha hızlı
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 5f; // Örneğin, %20 daha hızlı
+
+            // Belirli bir süre sonra hızı sıfırla
+            Invoke("ResetSpeed", speedBoostDuration);
         }
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
@@ -53,7 +62,10 @@ public class SlotUse : MonoBehaviour
             }
 
             // Karakter hızını artır
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 2f; // Örneğin, %20 daha hızlı
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 5f; // Örneğin, %20 daha hızlı
+
+            // Belirli bir süre sonra hızı sıfırla
+            Invoke("ResetSpeed", speedBoostDuration);
         }
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
@@ -63,15 +75,25 @@ public class SlotUse : MonoBehaviour
             }
 
             // Karakter hızını artır
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 2f; // Örneğin, %20 daha hızlı
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed * 5f; // Örneğin, %20 daha hızlı
+
+            // Belirli bir süre sonra hızı sıfırla
+            Invoke("ResetSpeed", speedBoostDuration);
         }
 
         // Diğer tuşlar için benzer şekilde devam edebilirsiniz
-
-        // Bu kısmı ekleyerek karakterin hızını sıfırlayabilirsiniz (gerekirse)
         if (Input.GetKeyDown(KeyCode.R))
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed;
         }
     }
+
+    // Hızı sıfırlayan metod
+    
+    void ResetSpeed()
+    {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().speed = originalMoveSpeed;
+    }
+    
+    
 }

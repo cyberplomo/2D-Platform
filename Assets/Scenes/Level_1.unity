@@ -228,7 +228,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.27553666, y: 0}
+  m_Offset: {x: 0.41974556, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -239,7 +239,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.831073, y: 2.56}
+  m_Size: {x: 2.1194909, y: 2.56}
   m_EdgeRadius: 0
 --- !u!212 &147218046
 SpriteRenderer:
@@ -300,8 +300,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147218044}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.59, y: -2.74, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5900269, y: -2.7399902, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3136,7 +3136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50.90094, y: -41.5}
+  m_AnchoredPosition: {x: -50.90088, y: -41.5}
   m_SizeDelta: {x: 468.1936, y: 79.7645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787911962
@@ -3194,7 +3194,7 @@ GameObject:
   - component: {fileID: 1799778310}
   - component: {fileID: 1799778309}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

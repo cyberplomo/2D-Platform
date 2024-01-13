@@ -2,13 +2,22 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    // Kapı objesini tutmak için bir referans
+    
+
     void Update()
     {
-        // E tuşuna basıldığında
-        if (Input.GetKeyDown(KeyCode.E))
+        // "e" tuşuna basıldığında
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            // Kapıyı yok et
             Destroy(gameObject);
         }
+        
+       
     }
 }

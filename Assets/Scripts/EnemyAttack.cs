@@ -70,4 +70,5 @@ public class EnemyAttack : MonoBehaviour
         if (PlayerInSight())
             playerHealth.TakeDamage(damage);
     }
+    
 }

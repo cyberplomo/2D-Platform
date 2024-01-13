@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpCooldown;
 
     private float horizontalInput;
+    public Coin coin;
     
     
     private void Awake()
@@ -104,5 +105,14 @@ public class PlayerMovement : MonoBehaviour
     private bool canAttack()
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            Destroy(other.gameObject);
+            coin.coinCount++;
+        }
     }
 }

@@ -10,6 +10,8 @@ TagManager:
   - Coin
   - Door
   - Checkpoint
+  - NextLevel
+  - PreviousLevel
   layers:
   - Default
   - TransparentFX

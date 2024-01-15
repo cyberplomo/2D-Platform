@@ -9,6 +9,7 @@ TagManager:
   - Inventory
   - Coin
   - Door
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

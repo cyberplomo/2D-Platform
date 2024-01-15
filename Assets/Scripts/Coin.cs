@@ -8,17 +8,25 @@ public class Coin : MonoBehaviour
 
     public Text coinText;
 
-    public GameObject door;
+    [SerializeField] private AudioClip pickupSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        coinText.text = coinCount.ToString();
-        
+        if (collision.tag == "Player")
+        {
+            SoundManager.instance.PlaySound(pickupSound);
+            //gameObject.SetActive(false);
+        }
     }
+    void Update()
+    {   
+        coinText.text = coinCount.ToString();
+    }
+   
+
 }

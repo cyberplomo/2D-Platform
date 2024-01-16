@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float horizontalInput;
     public Coin coin;
+    public static PlayerMovement instance;
 
     [Header("SFX")] 
     [SerializeField] private AudioClip jumpSound;
@@ -32,6 +33,15 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+       
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Update()

@@ -1,23 +1,40 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Door : MonoBehaviour
 {
-    // Kapı objesini tutmak için bir referans
-    
+    public Text interactionText; 
+    public float interactionDistance = 2f;
+
+    private bool isDoorDestroyed = false;
 
     void Update()
     {
-        // "e" tuşuna basıldığında
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
+       
+        if (!isDoorDestroyed)
         {
-            Destroy(gameObject);
+           
+            float distanceToDoor = Vector2.Distance(transform.position, PlayerMovement.instance.transform.position);
+
+           
+            if (Input.GetKeyDown(KeyCode.E) && distanceToDoor < interactionDistance)
+            {
+                
+                Destroy(gameObject);
+                isDoorDestroyed = true;
+                Destroy(interactionText);
+            }
+
+           
+            if (distanceToDoor < interactionDistance)
+            {
+                interactionText.gameObject.SetActive(true);
+            }
+            else
+            {
+                interactionText.gameObject.SetActive(false);
+            }
         }
-        
        
     }
 }

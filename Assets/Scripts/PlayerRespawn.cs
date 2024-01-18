@@ -10,6 +10,7 @@ public class PlayerRespawn : MonoBehaviour
   private Transform currentCheckpoint;
   private Health playerHealth;
   private Vector3 respawnPoint;
+  private UIManager uiManager;
   public GameObject fallDetector;
 
   private void Start()
@@ -25,10 +26,16 @@ public class PlayerRespawn : MonoBehaviour
   private void Awake()
   {
     playerHealth = GetComponent<Health>();
+    uiManager = FindObjectOfType<UIManager>();
   }
 
-  public void Respawn()
+  public void CheckRespawn()
   {
+    if (currentCheckpoint == null)
+    {
+      uiManager.GameOver();
+      return;
+    }
     transform.position = currentCheckpoint.position;
     playerHealth.Respawn();
   }

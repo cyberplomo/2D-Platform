@@ -15,7 +15,7 @@ public class PlayerRespawn : MonoBehaviour
 
   private void Start()
   {
-    respawnPoint = transform.position;
+   // respawnPoint = transform.position;
   }
 
   private void Update()
@@ -59,7 +59,8 @@ public class PlayerRespawn : MonoBehaviour
     }
     else if (collision.transform.tag == "FallDetector")
     {
-      transform.position = respawnPoint;
+      //transform.position = respawnPoint;
+      transform.position = currentCheckpoint.position;
     }
   }
 }

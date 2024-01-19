@@ -61,6 +61,7 @@ public class PlayerRespawn : MonoBehaviour
     {
       //transform.position = respawnPoint;
       transform.position = currentCheckpoint.position;
+      
     }
   }
 }

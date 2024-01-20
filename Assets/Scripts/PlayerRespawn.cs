@@ -63,5 +63,9 @@ public class PlayerRespawn : MonoBehaviour
       transform.position = currentCheckpoint.position;
       
     }
+    else if (collision.transform.tag == "EndGame")
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
   }
 }

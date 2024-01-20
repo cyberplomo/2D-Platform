@@ -13,6 +13,7 @@ TagManager:
   - NextLevel
   - PreviousLevel
   - FallDetector
+  - EndGame
   layers:
   - Default
   - TransparentFX
